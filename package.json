@@ -1,0 +1,55 @@
+{
+  "name": "os-miami",
+  "private": true,
+  "description": "Open source Miami Homepage 🌴☀️",
+  "version": "0.1.0",
+  "author": "Frank Hernandez <fhern077@fiu.edu> + others add names here",
+  "dependencies": {
+    "@types/react": "^16.8.22",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-helmet": "^5.0.8",
+    "gatsby": "^2.10.4",
+    "gatsby-image": "^2.2.3",
+    "gatsby-plugin-manifest": "^2.2.0",
+    "gatsby-plugin-offline": "^2.2.0",
+    "gatsby-plugin-react-helmet": "^3.1.0",
+    "gatsby-plugin-sharp": "^2.2.1",
+    "gatsby-plugin-typescript": "^2.1.0",
+    "gatsby-source-filesystem": "^2.1.0",
+    "gatsby-transformer-sharp": "^2.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "gatsby-cli": "^2.7.3",
+    "gatsby-plugin-tslint": "^0.0.2",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-loader": "^3.5.4",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.5.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "lint-fix": "./node_modules/.bin/tslint --fix -c ./tslint.json 'src/**/*{.ts,.tsx}'",
+    "format": "prettier --write src/**/*.{ts,tsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/open-source-miami/homepage"
+  },
+  "bugs": {
+    "url": "https://github.com/open-source-miami/homepage/issues"
+  }
+}
