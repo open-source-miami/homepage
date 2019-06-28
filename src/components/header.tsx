@@ -4,7 +4,6 @@ import React from "react"
 interface IHeader {
   siteTitle: string
 }
-
 const Header = ({ siteTitle = "" }: IHeader) => (
   <header
     style={{

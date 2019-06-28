@@ -24,8 +24,14 @@
   "devDependencies": {
     "@types/jest": "^24.0.15",
     "gatsby-cli": "^2.7.3",
+    "gatsby-plugin-tslint": "^0.0.2",
     "jest": "^24.8.0",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-loader": "^3.5.4",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.5.2"
   },
   "keywords": [
     "gatsby"
@@ -34,7 +40,8 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
+    "lint-fix": "./node_modules/.bin/tslint --fix -c ./tslint.json 'src/**/*{.ts,.tsx}'",
+    "format": "prettier --write src/**/*.{ts,tsx}",
     "start": "npm run develop",
     "serve": "gatsby serve"
   },
