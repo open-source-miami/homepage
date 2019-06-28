@@ -15,6 +15,16 @@
         "infra",
         "code"
       ]
+    },
+    {
+      "login": "sherwino",
+      "name": "Sherwino",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2348227?v=4",
+      "profile": "http://sherwino.co",
+      "contributions": [
+        "doc",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
