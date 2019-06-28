@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "fhern077",
+      "name": "Frank Hernandez",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/22156241?v=4",
+      "profile": "http://fhern077.me",
+      "contributions": [
+        "projectManagement"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "homepage",
+  "projectOwner": "open-source-miami",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
