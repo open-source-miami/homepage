@@ -5,6 +5,9 @@
   "version": "0.1.0",
   "author": "Frank Hernandez <fhern077@fiu.edu> + others add names here",
   "dependencies": {
+    "@types/react": "^16.8.22",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-helmet": "^5.0.8",
     "gatsby": "^2.10.4",
     "gatsby-image": "^2.2.3",
     "gatsby-plugin-manifest": "^2.2.0",
@@ -14,12 +17,14 @@
     "gatsby-plugin-typescript": "^2.1.0",
     "gatsby-source-filesystem": "^2.1.0",
     "gatsby-transformer-sharp": "^2.2.0",
-    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "gatsby-cli": "^2.7.3",
+    "jest": "^24.8.0",
     "prettier": "^1.18.2"
   },
   "keywords": [
