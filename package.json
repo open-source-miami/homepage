@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "os-miami",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Open source Miami Homepage 🌴☀️",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Frank Hernandez <fhern077@fiu.edu> + others add names here",
   "dependencies": {
     "gatsby": "^2.10.4",
     "gatsby-image": "^2.2.3",
@@ -31,14 +31,13 @@
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "serve": "gatsby serve"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/open-source-miami/homepage"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/open-source-miami/homepage/issues"
   }
 }
