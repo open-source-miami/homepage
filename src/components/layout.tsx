@@ -7,7 +7,6 @@ import { graphql, useStaticQuery } from "gatsby"
 import React, { ReactNode } from "react"
 
 import Header from "./header"
-import "./layout.css"
 
 interface ILayout {
   children: ReactNode
