@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Frank Hernandez <fhern077@fiu.edu> + others add names here",
   "dependencies": {
+    "@rebass/grid": "^6.0.0",
     "@types/react": "^16.8.22",
     "@types/react-dom": "^16.8.4",
     "@types/react-helmet": "^5.0.8",
