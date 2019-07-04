@@ -7,6 +7,7 @@ import React, { ReactNode } from "react"
 import styled from "styled-components"
 
 import Header from "./header"
+import HtmlHead from "./html-head"
 
 interface ILayout {
   children: ReactNode
@@ -32,6 +33,7 @@ const Layout = ({ children }: ILayout) => {
 
   return (
     <>
+      <HtmlHead />
       <Header siteTitle={data.site.siteMetadata.title} />
       <Container>
         <main>{children}</main>
